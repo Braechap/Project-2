@@ -16,7 +16,13 @@
   gap: 1rem;
 }
 
-
+body {
+  color: white;
+  text-shadow: 
+    0 0 5px black,
+    0 0 10px black,
+    0 0 20px black;
+}
 .logo {
   width: 70px;
   height: 70px;
@@ -513,7 +519,7 @@
   background: rgba(255,255,255,0.12);
 }
 
-/* grid + cards */
+
 .glam-grid{
   display: grid;
   gap: 1rem;
@@ -548,6 +554,7 @@
   margin: 0.6rem 0 0.35rem;
   font-size: 1.2rem;
   color: rgba(255,255,255,0.95);
+ text-shadow: 2px 2px 0 #0c0c0b;
 }
 
 .glam-card p{
@@ -669,7 +676,7 @@
   transition: transform 0.35s ease;
 }
 
-/* ===== Glam Contact / Signup Form ===== */
+
 
 .contact-glam{
   position: relative;
@@ -727,7 +734,7 @@
   color: rgba(255,255,255,0.9);
 }
 
-/* form layout */
+
 .glam-form{
   margin-top: 1.25rem;
 }
@@ -738,7 +745,7 @@
   grid-template-columns: 1fr;
 }
 
-/* 2 columns on medium+ screens */
+
 @media (min-width: 760px){
   .form-grid{
     grid-template-columns: 1fr 1fr;
@@ -749,7 +756,7 @@
   }
 }
 
-/* fields */
+
 .field label{
   display: inline-block;
   margin-bottom: 0.45rem;
